@@ -21,3 +21,35 @@ def test_perimeter():
     
     # then the perimeter should be 14
     assert output == 14
+
+def test_soma():
+    n1 = 3
+    n2 = 4
+
+    output = methods.soma(n1, n2)
+
+    assert output == 7
+
+def test_subtracao():
+    n1 = 6
+    n2 = 5
+
+    output = methods.subtracao(n1, n2)
+
+    assert output == 1
+
+def test_divisao():
+    n1 = 10
+    n2 = 5
+
+    output = methods.divisao(n1, n2)
+
+    assert output == 2
+
+def test_multiplicacao():
+    n1 = 6
+    n2 = 10
+
+    output = methods.multiplicacao(n1, n2)
+    
+    assert output == 60
